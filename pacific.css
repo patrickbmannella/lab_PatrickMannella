@@ -1,16 +1,32 @@
 #wrapper {
+    background-color: #FFFFFF;
+    min-width: 700px;
+    max-width: 1024px;
+    box-shadow: 10px 10px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 }
 
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 body {
-    background-color: #FFFFFF;
+    background-color: #3399CC;
+    background-image: linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC);
     color: #666666;
     font-family: Arial;
 }
 
 h1 {
+    margin-bottom: 0;
+    background-image: url(images/sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    height: 72px;
     background-color: #000033;
     color: #FFFFFF;
     font-family: Georgia;
@@ -18,6 +34,11 @@ h1 {
 }
 
 nav {
+    text-decoration: none;
+    padding-top: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    padding-bottom: 2em;
     font-weight: bold;
     background-color: #90c7E3;
 }
@@ -25,6 +46,10 @@ nav {
 h2 {
     color: #3399CC;
     font-family: Georgia;
+}
+
+h3 {
+    color: #000033;
 }
 
 dt {
@@ -37,7 +62,26 @@ dt {
     font-size: 1.2em;
 }
 
+#homehero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#trailhero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 footer {
+    padding: 1em;
     font-size: .70em;
     font-style: italic;
     text-align: center;
