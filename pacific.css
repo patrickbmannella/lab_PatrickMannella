@@ -97,7 +97,7 @@ dt {
     background-image: url(images/coast.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-left: 170px;
+    margin-left: 170px;
 }
 
 #yurthero {
@@ -105,7 +105,7 @@ dt {
     background-image: url(images/yurt.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-left: 170px;
+    margin-left: 170px;
 }
 
 #trailhero {
@@ -113,7 +113,7 @@ dt {
     background-image: url(images/trail.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-left: 170px;
+    margin-left: 170px;
 }
 
 footer {
