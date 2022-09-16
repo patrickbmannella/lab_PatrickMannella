@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
 #wrapper {
     background-color: #000033;
     min-width: 700px;
