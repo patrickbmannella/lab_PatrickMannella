@@ -142,8 +142,7 @@ footer {
 
 table {
     margin: auto;
-    border: 1px;
-    border-color: #3399CC;
+    border: 1px solid #3399CC;
     width: 90%;
     border-collapse: collapse;
 }
@@ -151,15 +150,14 @@ table {
 td,
 th {
     padding: 5px;
-    border: 1px;
-    border-color: #3399CC;
+    border: 1px solid #3399CC
 }
 
 td {
     text-align: center;
 }
 
-text {
+.text {
     text-align: left;
 }
 
