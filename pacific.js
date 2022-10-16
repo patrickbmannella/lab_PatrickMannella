@@ -1,1 +1,7 @@
-onload:(alert("Today only - 10% off on a weekend - coupon code ZenTen"));
+function validateForm() {
+    if (document.forms[0].myEmail.value == "") {
+        alert("Please enter an e-mail address.");
+        return false;
+    } // end if 
+    return true;
+} // end function validateForm

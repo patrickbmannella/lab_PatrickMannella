@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head> 
+<script src="./pacific.js"></script>
 <title>Pacific Trails Resort :: Reservations</title>
 <meta charset="utf-8">
 <meta name="viewport"
@@ -8,7 +9,6 @@ content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="pacific.css">
 </head>
 <body>
-<script src="./pacific.js"></script>
 <div id="wrapper">	
 <header>
 <h1>Pacific Trails Resort</h1>
@@ -26,10 +26,10 @@ content="width=device-width, initial-scale=1.0">
 	<h3>Contact Us</h3>
 	<p>Required information is marked with an asterisk (*).</p>
 	<form method="post" action="https://webdevbasics.net/scripts/pacific.php">
-		<label for="FName">*First Name: </label>
-		<input type="text" name="FName" id="FName" required="required">
-		<label for="LName">*Last Name: </label>
-		<input type="text" name="LName" id="LName" required="required">
+		<label for="FName">First Name: </label>
+		<input type="text" name="FName" id="FName">
+		<label for="LName">Last Name: </label>
+		<input type="text" name="LName" id="LName">
 		<label for="myEmail">*E-mail: </label>
 		<input type="email" name="myEmail" id="myEmail" required="required">
 		<label for="myPhone">Phone: </label>
@@ -38,8 +38,8 @@ content="width=device-width, initial-scale=1.0">
 		<input type="date" name="rDate" id="rDate">
 		<label for="myNights">Nights: </label>
 		<input type="number" name="myNights" id="myNights" min="1" max="14">
-		<label for="myComments">*Comments</label>
-		<textarea name="myComments" id="myComments" rows="2" columns="20" required="required"></textarea>
+		<label for="myComments">Comments</label>
+		<textarea name="myComments" id="myComments" rows="2" columns="20"></textarea>
 		<input id="mySubmit" type="submit" value="Submit">
 	</form>
 </main> 
