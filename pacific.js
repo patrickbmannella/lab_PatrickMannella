@@ -1,0 +1,1 @@
+onload:(alert("Today only - 10% off on a weekend - coupon code ZenTen"));
